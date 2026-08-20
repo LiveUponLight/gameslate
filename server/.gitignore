@@ -1,5 +1,4 @@
-node_modules
-# Keep environment variables out of version control
-.env
+# Environment variables declared in this file are automatically made available to Prisma.
+# See the documentation for more detail: https://pris.ly/d/prisma-schema#accessing-environment-variables-from-the-schema
 
-/generated/prisma
+DATABASE_URL="postgresql://neondb_owner:npg_gIs5Ymzk9JRH@ep-late-butterfly-axajyj6s.c-4.us-east-2.aws.neon.tech/neondb?sslmode=require"
